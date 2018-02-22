@@ -12,6 +12,7 @@
 		E76F2DF7203EBE110028A288 /* todo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E76F2DF5203EBE110028A288 /* todo.xcdatamodeld */; };
 		E76F2DF9203EBE110028A288 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E76F2DF8203EBE110028A288 /* Assets.xcassets */; };
 		E76F2DFC203EBE110028A288 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E76F2DFA203EBE110028A288 /* LaunchScreen.storyboard */; };
+		E76F2E06203EC2610028A288 /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76F2E05203EC2610028A288 /* AddTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E76F2DF8203EBE110028A288 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E76F2DFB203EBE110028A288 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E76F2DFD203EBE110028A288 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E76F2E05203EC2610028A288 /* AddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				E76F2DEE203EBE110028A288 /* AppDelegate.swift */,
+				E76F2E05203EC2610028A288 /* AddTaskViewController.swift */,
 				E76F2DF0203EBE110028A288 /* ViewController.swift */,
 				E76F2DF8203EBE110028A288 /* Assets.xcassets */,
 				E76F2DFA203EBE110028A288 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E76F2DF1203EBE110028A288 /* ViewController.swift in Sources */,
+				E76F2E06203EC2610028A288 /* AddTaskViewController.swift in Sources */,
 				E76F2DEF203EBE110028A288 /* AppDelegate.swift in Sources */,
 				E76F2DF7203EBE110028A288 /* todo.xcdatamodeld in Sources */,
 			);
